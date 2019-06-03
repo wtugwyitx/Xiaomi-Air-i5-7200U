@@ -48,6 +48,6 @@ If this project help you reduce time to hackintosh, you can give me a cup of cof
 
 | Wechat| Alipay | PayPal |
 | - | - | - |
-| ![wechat](img/wechat.png) | ![alipay](img/alipay.png) | [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XY2PW7DUBTWXE&source=url) |
+| <img src="/jasper-wan/Xiaomi-Air-i5-7200U/raw/master/img/wechat.png" alt="wechat" style="width: 120px; height: 120px"> | <img src="/jasper-wan/Xiaomi-Air-i5-7200U/raw/master/img/alipay.png" alt="alipay" style="width: 120px; height: 120px"> | [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XY2PW7DUBTWXE&source=url) |
 
 
