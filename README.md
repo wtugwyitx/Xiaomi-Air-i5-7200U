@@ -1,39 +1,49 @@
-# macOS Mojave Clover config for Xiaomi Notebook Air 13.3 7th-gen Fingerprint Edition
+# 小米笔记本Air 13.3 7代黑苹果配置
 
-tested on macOS Mojave 10.14.5. PR's welcome.
+支持的版本：
 
-## Configuration
+* macOS Mojave 10.14.5
+* macOS Catalina 10.15 Beta (19A501i)
 
-* Computer model: Xiaomi Notebook Air 13.3 Fingerprint Edition
+## 配置
 
-* Processor: Intel Core i5-7200U
+* 处理器：Intel Core i5-7200U
 
-* Memory: 8GB Samsung DDR4 2133MHz
+* 内存：8GB Samsung DDR4 2133MHz
 
-* Hard Disk: Samsung NVMe SSD Controller PM961 256GB
+* 硬盘：Samsung NVMe SSD Controller PM961 256GB
 
-* Integrated Graphics: Intel Graphics HD620
+* 集成显卡：Intel Graphics HD620
 
-* Sound Card: Realtek ALC255 with layout-id 30
+* 声卡：Realtek ALC255 with layout-id 30
 
-* Wireless: Intel Wireless AC8265
+* 无线网卡：Intel Wireless AC8265
 
+## 不支持的组件
 
-## What's **not** working
+* nVidia MX150
 
-* dGPU (nVidia MX150)
+* 指纹传感器
 
-* Fingerprint sensor
+* Intel无线和蓝牙
 
-* Intel WiFi & Bluetooth
-
-* Fn + F4/F5 brightness control
+* 10.15中不支持亮度控制
 
 ## TODO
 
-* Fix Fn + F4/F5 brightness contorl. For now you can adjust the brightness in System Preferneces.
+* 修复10.15的亮度控制
 
-* Upgrade VoodooI2C to latest version. (https://github.com/alexandred/VoodooI2C/issues/132)
+* 更新VoodooI2C(https://github.com/alexandred/VoodooI2C/issues/132)
+
+## 更新记录
+
+2019-07-07:
+
+* 更新Clover到4979
+* 更新 Lilu/WhateverGreen/AppleALC/VirtualSMC/NoTouchID 
+* 支持Catalina
+* 增加RtWlanU驱动
+* 移除导致Catalina内核崩溃的`SSDT-PNLF.aml`。同时导致亮度控制不可用
 
 ## Credits
 
