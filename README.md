@@ -33,9 +33,11 @@
 
 * 修复10.15的亮度控制
 
-* 更新VoodooI2C(https://github.com/alexandred/VoodooI2C/issues/132)
-
 ## 更新记录
+
+2019-07-11:
+
+* 更新VoodooI2C到最新版2.2. 经过两天使用后基本确认没有问题。
 
 2019-07-07:
 
