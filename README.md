@@ -2,8 +2,13 @@
 
 支持的版本：
 
-* macOS Mojave 10.14.5
-* macOS Catalina 10.15 Beta (19A501i)
+* macOS Mojave 10.14.5 (18F132)
+
+* macOS Catalina 10.15 Beta
+
+    * Beta 3 (19A501i)
+
+    * Beta 4 (19A512f)
 
 ## 配置
 
@@ -47,9 +52,21 @@
 * 增加RtWlanU驱动
 * 移除导致Catalina内核崩溃的`SSDT-PNLF.aml`。同时导致亮度控制不可用
 
+2019-07-19:
+
+* 从macOS Catalina Beta 3 更新到 Beta 4
+
+    * 可直接使用macOS的更新功能升级
+
+    * 更新后不需要重建kext缓存，触摸板正常
+
+    * HiDPI失效，重新执行一遍脚本即可。原因是/System只读，所以更新会直接使用原版进行覆盖
+
+    * 其他正常
+
 ## Credits
 
-- [Acidanthera](https://github.com/acidanthera) for providing [AppleALC](https://github.com/acidanthera/AppleALC), [Lilu](https://github.com/acidanthera/Lilu), [O[VirtualSMC](https://github.com/acidanthera/VirtualSMC), [VoodooPS2](https://github.com/acidanthera/VoodooPS2), and [WhateverGreen](https://github.com/acidanthera/WhateverGreen).
+- [Acidanthera](https://github.com/acidanthera) for providing [AppleALC](https://github.com/acidanthera/AppleALC), [Lilu](https://github.com/acidanthera/Lilu), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), [VoodooPS2](https://github.com/acidanthera/VoodooPS2), and [WhateverGreen](https://github.com/acidanthera/WhateverGreen).
 - [alexandred](https://github.com/alexandred) for providing [VoodooI2C](https://github.com/alexandred/VoodooI2C).
 - [apianti](https://sourceforge.net/u/apianti), [blackosx](https://sourceforge.net/u/blackosx), [blusseau](https://sourceforge.net/u/blusseau), [dmazar](https://sourceforge.net/u/dmazar), and [slice2009](https://sourceforge.net/u/slice2009) for providing [Clover](https://sourceforge.net/projects/cloverefiboot).
 - [RehabMan](https://github.com/RehabMan) for providing [EAPD-Codec-Commander](https://github.com/RehabMan/EAPD-Codec-Commander),  [OS-X-Clover-Laptop-Config](https://github.com/RehabMan/OS-X-Clover-Laptop-Config), [OS-X-Null-Ethernet](https://github.com/RehabMan/OS-X-Null-Ethernet), and [SATA-unsupported](https://github.com/RehabMan/hack-tools/tree/master/kexts/SATA-unsupported.kext).
