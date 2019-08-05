@@ -10,6 +10,8 @@
 
     * Beta 4 (19A512f)
 
+    * Beta 5 (19A526h)
+
 ## 配置
 
 * 处理器：Intel Core i5-7200U
@@ -63,6 +65,14 @@
     * HiDPI失效，重新执行一遍脚本即可。原因是/System只读，所以更新会直接使用原版进行覆盖
 
     * 其他正常
+
+2019-08-05:
+
+* 从macOS Catalina Beta 4 更新到 Beta 5
+
+    * 可直接使用macOS的更新功能升级
+
+    * 更新后不需要重建kext缓存，触摸板、HiDPI正常
 
 ## Credits
 
