@@ -12,6 +12,10 @@
 
     * Beta 5 (19A526h)
 
+    * Beta 6（19A536g）
+
+    * Beta 7（19A546d）
+
 ## 配置
 
 * 处理器：Intel Core i5-7200U
