@@ -78,6 +78,11 @@
 
     * 更新后不需要重建kext缓存，触摸板、HiDPI正常
 
+2019-09-10:
+
+* 从macOS Catalina Beta 5 更新到 Beta 7
+* 更新Clover到v5070
+
 ## Credits
 
 - [Acidanthera](https://github.com/acidanthera) for providing [AppleALC](https://github.com/acidanthera/AppleALC), [Lilu](https://github.com/acidanthera/Lilu), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), [VoodooPS2](https://github.com/acidanthera/VoodooPS2), and [WhateverGreen](https://github.com/acidanthera/WhateverGreen).
