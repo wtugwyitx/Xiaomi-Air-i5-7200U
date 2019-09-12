@@ -15,6 +15,8 @@
     * Beta 6（19A536g）
 
     * Beta 7（19A546d）
+    
+    * Beta 8（19A558d）
 
 ## 配置
 
@@ -82,6 +84,10 @@
 
 * 从macOS Catalina Beta 5 更新到 Beta 7
 * 更新Clover到v5070
+
+2019-09-12:
+
+* 更新到Beta 8
 
 ## Credits
 
