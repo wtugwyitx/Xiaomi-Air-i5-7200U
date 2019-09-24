@@ -15,8 +15,10 @@
     * Beta 6（19A536g）
 
     * Beta 7（19A546d）
-    
+
     * Beta 8（19A558d）
+
+    * Beta 9（19A573a）
 
 ## 配置
 
@@ -39,12 +41,6 @@
 * 指纹传感器
 
 * Intel无线和蓝牙
-
-* 10.15中不支持亮度控制
-
-## TODO
-
-* 修复10.15的亮度控制
 
 ## 更新记录
 
@@ -89,12 +85,18 @@
 
 * 更新到Beta 8
 
+2019-09-24:
+
+* 更新到Beta 9
+
+* 修复了亮度控制
+
 ## Credits
 
 - [Acidanthera](https://github.com/acidanthera) for providing [AppleALC](https://github.com/acidanthera/AppleALC), [Lilu](https://github.com/acidanthera/Lilu), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), [VoodooPS2](https://github.com/acidanthera/VoodooPS2), and [WhateverGreen](https://github.com/acidanthera/WhateverGreen).
 - [alexandred](https://github.com/alexandred) for providing [VoodooI2C](https://github.com/alexandred/VoodooI2C).
 - [apianti](https://sourceforge.net/u/apianti), [blackosx](https://sourceforge.net/u/blackosx), [blusseau](https://sourceforge.net/u/blusseau), [dmazar](https://sourceforge.net/u/dmazar), and [slice2009](https://sourceforge.net/u/slice2009) for providing [Clover](https://sourceforge.net/projects/cloverefiboot).
-- [RehabMan](https://github.com/RehabMan) for providing [EAPD-Codec-Commander](https://github.com/RehabMan/EAPD-Codec-Commander),  [OS-X-Clover-Laptop-Config](https://github.com/RehabMan/OS-X-Clover-Laptop-Config), [OS-X-Null-Ethernet](https://github.com/RehabMan/OS-X-Null-Ethernet), and [SATA-unsupported](https://github.com/RehabMan/hack-tools/tree/master/kexts/SATA-unsupported.kext).
+- [RehabMan](https://github.com/RehabMan) for providing [EAPD-Codec-Commander](https://github.com/RehabMan/EAPD-Codec-Commander) and [OS-X-Clover-Laptop-Config](https://github.com/RehabMan/OS-X-Clover-Laptop-Config).
 
 # Donation
 
