@@ -4,25 +4,7 @@
 
 * macOS Mojave 10.14.5 (18F132)
 
-* macOS Catalina 10.15 Beta
-
-    * Beta 3 (19A501i)
-
-    * Beta 4 (19A512f)
-
-    * Beta 5 (19A526h)
-
-    * Beta 6（19A536g）
-
-    * Beta 7（19A546d）
-
-    * Beta 8（19A558d）
-
-    * Beta 9（19A573a）
-
-    * Beta 10（19A578c）
-    
-    * Beta 11（19A582a）
+* macOS Catalina 10.15（19A583）
 
 ## 配置
 
@@ -102,6 +84,10 @@
 2019-10-04:
 
 * 更新到Beta 11
+
+2019-10-08:
+
+* 更新到10.15正式版。需要重新启用HiDPI
 
 ## Credits
 
