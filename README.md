@@ -98,6 +98,10 @@
 * 更新到10.15.1
 * 修改了USB端口限制补丁的MatchOS为10.15.x
 
+2019-12-16:
+
+* 更新到10.15.2
+
 ## Credits
 
 - [Acidanthera](https://github.com/acidanthera) for providing [AppleALC](https://github.com/acidanthera/AppleALC), [Lilu](https://github.com/acidanthera/Lilu), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), [VoodooPS2](https://github.com/acidanthera/VoodooPS2), and [WhateverGreen](https://github.com/acidanthera/WhateverGreen).
