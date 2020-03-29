@@ -4,7 +4,7 @@
 
 * macOS Mojave 10.14.5 (18F132)
 
-* macOS Catalina 10.15, 10.15.1, 10.15.2（19A583、19A602、19B88、19C57）
+* macOS Catalina 10.15, 10.15.1, 10.15.2, 10.15.3
 
 ## 配置
 
@@ -26,7 +26,7 @@
 
 * 指纹传感器
 
-* Intel无线和蓝牙
+* Intel无线
 
 ## 更新记录
 
@@ -102,12 +102,17 @@
 
 * 更新到10.15.2
 
+2020-03-29:
+
+* 支持Intel蓝牙
+
 ## Credits
 
 - [Acidanthera](https://github.com/acidanthera) for providing [AppleALC](https://github.com/acidanthera/AppleALC), [Lilu](https://github.com/acidanthera/Lilu), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), [VoodooPS2](https://github.com/acidanthera/VoodooPS2), and [WhateverGreen](https://github.com/acidanthera/WhateverGreen).
 - [alexandred](https://github.com/alexandred) for providing [VoodooI2C](https://github.com/alexandred/VoodooI2C).
 - [apianti](https://sourceforge.net/u/apianti), [blackosx](https://sourceforge.net/u/blackosx), [blusseau](https://sourceforge.net/u/blusseau), [dmazar](https://sourceforge.net/u/dmazar), and [slice2009](https://sourceforge.net/u/slice2009) for providing [Clover](https://sourceforge.net/projects/cloverefiboot).
 - [RehabMan](https://github.com/RehabMan) for providing [EAPD-Codec-Commander](https://github.com/RehabMan/EAPD-Codec-Commander) and [OS-X-Clover-Laptop-Config](https://github.com/RehabMan/OS-X-Clover-Laptop-Config).
+- [zxystd](https://github.com/zxystd) for providing [IntelBluetoothFirmware](https://github.com/zxystd/IntelBluetoothFirmware).
 
 # Donation
 
