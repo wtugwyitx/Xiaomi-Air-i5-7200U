@@ -10,7 +10,9 @@
 
 # 快速上手指南
 
-本项目已全面转向OpenCore，目前支持到macOS Big Sur。Clover版本只支持到10.15.4且不再更新。个人维护能力有限，如果你有能力更新Clover相关配置，请直接提交Pull Request！
+克隆有问题？尝试国内镜像：<https://gitee.com/vaimibao/Xiaomi-Air-i5-7200U>
+
+本项目已全面转向OpenCore，目前支持到macOS Big Sur。本项目的Clover配置只支持到10.15.4。个人维护能力有限，如果你有能力更新Clover相关配置，请直接提交Pull Request！
 
 如何使用：
 
@@ -18,13 +20,15 @@
 
 issue页面可查看更多说明，包括：
 
-* 解锁CFG锁
+* [解锁CFG锁](https://github.com/jasper-wan/Xiaomi-Air-i5-7200U/issues/28)
 
-* 调整BIOS的DVMT大小
+* [调整BIOS的DVMT大小](https://github.com/jasper-wan/Xiaomi-Air-i5-7200U/issues/28)
 
-* 开启HiDPI
+* [开启HiDPI](https://github.com/jasper-wan/Xiaomi-Air-i5-7200U/issues/26)
 
-* 如何支持Apple Music
+* [如何支持Apple Music](https://github.com/jasper-wan/Xiaomi-Air-i5-7200U/issues/27)
+
+* [一些设备信息](https://github.com/jasper-wan/Xiaomi-Air-i5-7200U/issues/30)
 
 # 同机型讨论群
 
