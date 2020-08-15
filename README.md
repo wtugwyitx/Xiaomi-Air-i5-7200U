@@ -1,8 +1,12 @@
 # 小米笔记本Air 13.3 7代黑苹果配置
 
-支持的设备型号：i5-7200U，BIOS版本为`XMAKB3M0P0504`。理论上其他BIOS版本如0304、0705也可兼容。
+**使用本项目文件风险和后果自负**
 
-支持的版本：
+**更新不易，请捐赠支持，二维码见最下方**
+
+支持的CPU型号：i5-7200U，BIOS版本为`XMAKB3M0P0504`。理论上其他BIOS版本如0304、0705也可兼容。
+
+支持的macOS版本：
 
 * macOS Catalina 10.15.x
 
@@ -17,6 +21,8 @@
 如何使用：
 
 将本项目中EFI_OC文件夹内的两个文件夹复制到系统硬盘的ESP分区中的EFI目录下，并使用bootice工具将BOOTx64.efi添加到系统启动项。请自行使用macserial工具生成可用序列号（System UUID、MLB、Serial Number）然后填写到`OC/config.plist`文件中的对应位置（文件中搜索MLB即可找到）。
+
+本配置已经包含itlwm无线网卡驱动，请下载[HeilPort](https://github.com/OpenIntelWireless/HeliPort) 客户端配合使用
 
 issue页面可查看更多说明，包括：
 
@@ -45,5 +51,3 @@ EFI更新不易，给作者加个🍗
 # LICENSE
 
 BSD
-
-**使用本项目文件风险和后果自负**
