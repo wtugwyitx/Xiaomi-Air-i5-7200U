@@ -86,15 +86,6 @@
                 <key>Path</key>
                 <string>SSDT-UIAC.aml</string>
             </dict>
- 
-            <dict>
-                <key>Comment</key>
-                <string>OSI</string>
-                <key>Enabled</key>
-                <true/>
-                <key>Path</key>
-                <string>SSDT-XOSI.aml</string>
-            </dict>
             <dict>
                 <key>Comment</key>
                 <string>GPRW</string>
@@ -118,6 +109,14 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-SBUS-MCHC.aml</string>
+			</dict>
+            <dict>
+				<key>Comment</key>
+				<string>Touch Pad</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-TPD0.aml</string>
 			</dict>
         </array>
         <key>Delete</key>
@@ -190,32 +189,6 @@
                 <integer>0</integer>
                 <key>TableSignature</key>
                 <data></data>
-            </dict>
-               <dict>
-                <key>Comment</key>
-                <string>change _OSI to XOSI, pair with SSDT-XOSI.aml</string>
-                <key>Count</key>
-                <integer>0</integer>
-                <key>Enabled</key>
-                <true/>
-                <key>Find</key>
-                <data>X09TSQ==</data>
-                <key>Limit</key>
-                <integer>0</integer>
-                <key>Mask</key>
-                <data></data>
-                <key>OemTableId</key>
-                <data></data>
-                <key>Replace</key>
-                <data>WE9TSQ==</data>
-                <key>ReplaceMask</key>
-                <data></data>
-                <key>Skip</key>
-                <integer>0</integer>
-                <key>TableLength</key>
-                <integer>0</integer>
-                <key>TableSignature</key>
-                <data>RFNEVA==</data>
             </dict>
             <dict>
                 <key>Comment</key>
