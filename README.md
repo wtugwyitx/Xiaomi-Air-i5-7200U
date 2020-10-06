@@ -10,7 +10,7 @@
 
 * macOS Catalina 10.15.x
 
-* macOS Big Sur 11.0 Beta
+* macOS Big Sur 11.0 Beta 9
 
 # 快速上手指南
 
@@ -22,7 +22,6 @@
 
 将本项目中EFI_OC文件夹内的两个文件夹复制到系统硬盘的ESP分区中的EFI目录下，并使用bootice工具将BOOTx64.efi添加到系统启动项。请自行使用macserial工具生成可用序列号（System UUID、MLB、Serial Number）然后填写到`OC/config.plist`文件中的对应位置（文件中搜索MLB即可找到）。
 
-本配置已经包含itlwm无线网卡驱动，请下载[HeilPort](https://github.com/OpenIntelWireless/HeliPort) 客户端配合使用
 
 issue页面可查看更多说明，包括：
 
