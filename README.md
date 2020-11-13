@@ -10,7 +10,7 @@
 
 * macOS Catalina 10.15.x
 
-* macOS Big Sur 11.0 Beta 9
+* macOS Big Sur 11.0
 
 # 快速上手指南
 
